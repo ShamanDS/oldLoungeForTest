@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backbtn"
+    android:orientation="vertical"
+    android:paddingBottom="20dp" >
+
+        <ImageView
+            android:id="@+id/firstTrackCircle"
+            android:layout_width="56dp"
+            android:layout_height="53dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/circle_purple" />
+        
+        <ImageView
+            android:id="@+id/firstTrackSeparator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/firstTrackCircle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/separator" />
+
+        <ImageView
+            android:id="@+id/secondTrackCircle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/firstTrackCircle"
+            android:layout_below="@+id/firstTrackSeparator"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/circle_grey" />
+
+        <ImageView
+            android:id="@+id/secondTrackSeparator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/firstTrackSeparator"
+            android:layout_below="@+id/secondTrackCircle"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/separator" />
+
+        <ImageView
+            android:id="@+id/thirdTrackCircle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/secondTrackCircle"
+            android:layout_below="@+id/secondTrackSeparator"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/circle_grey" />
+
+        <TextView
+            android:id="@+id/third_track"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_alignBottom="@+id/thirdTrackCircle"
+            android:layout_alignLeft="@+id/first_track"
+            android:layout_marginTop="5dp"
+            android:maxLines="2"
+            android:text="@string/third_track_title"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/first_track"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_above="@+id/firstTrackSeparator"
+            android:layout_toRightOf="@+id/firstTrackCircle"
+            android:maxLines="2"
+            android:text="@string/first_track_title"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/second_track"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_alignBottom="@+id/secondTrackCircle"
+            android:layout_alignLeft="@+id/first_track"
+            android:maxLines="2"
+            android:text="@string/second_track_title"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/onAirBackButton"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_below="@+id/thirdTrackCircle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/big_button_black"
+            android:text="@string/button_onAir_back" 
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/firstTrackTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/firstTrackCircle"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignTop="@+id/firstTrackCircle"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_centerHorizontal="false"
+            android:layout_centerInParent="false"
+            android:layout_centerVertical="false"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="16dp"
+            android:text="hh:mm"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/secondTrackTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/secondTrackCircle"
+            android:layout_alignTop="@+id/secondTrackCircle"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="16dp"
+            android:text="hh:mm"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/thirdTrackTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/third_track"
+            android:layout_alignLeft="@+id/thirdTrackCircle"
+            android:layout_alignTop="@+id/thirdTrackCircle"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="16dp"
+            android:text="hh:mm"
+            android:textColor="@android:color/white" />
+        
+</RelativeLayout>

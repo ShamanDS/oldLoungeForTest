@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <selector xmlns:android="http://schemas.android.com/apk/res/android">
+   
+
+     <item android:state_selected = "true"
+          android:layout_height="32dp"
+          android:drawable="@drawable/backbtn" /> <!-- pressed -->
+          
+     <item android:state_pressed = "true"
+          android:layout_height="32dp"
+          android:drawable="@drawable/backbtn" /> <!-- pressed -->
+          
+    <item android:drawable="@drawable/backbtn"
+                  android:layout_height="32dp"
+         /> <!-- default -->
+     
+ </selector>

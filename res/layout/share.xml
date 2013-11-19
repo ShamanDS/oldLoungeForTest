@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backbtn"
+    android:orientation="vertical"
+    android:paddingBottom="20dp" >
+    
+    <Button
+        android:id="@+id/vkontakteButton"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/big_button"
+        android:text="@string/button_vkontakte"
+        android:textColor="@drawable/button_text_color" />
+    
+    <Button
+        android:id="@+id/facebookButton"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/big_button"
+        android:text="@string/button_facebook"
+        android:textColor="@drawable/button_text_color" />
+    
+    <Button
+        android:id="@+id/emailButton"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/big_button"
+        android:text="@string/button_email"
+        android:textColor="@drawable/button_text_color" />
+    
+     <Button
+         android:id="@+id/smsButton"
+         android:layout_width="match_parent"
+         android:layout_height="32dp"
+         android:layout_marginBottom="30dp"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:background="@drawable/big_button"
+         android:text="@string/button_sms"
+         android:textColor="@drawable/button_text_color" />
+
+     <Button
+         android:id="@+id/cancelButton"
+         android:layout_width="match_parent"
+         android:layout_height="32dp"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:background="@drawable/big_button_black"
+         android:text="@string/button_Share_cancel"
+         android:textColor="@android:color/white" />
+
+</LinearLayout>

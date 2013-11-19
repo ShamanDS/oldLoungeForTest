@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lounge Fm</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_share">Share</string>
+    <string name="button_onAir">on Air</string>
+    <string name="button_play">play</string>
+    <string name="button_pause">pause</string>
+    <string name="button_vkontakte">Vkontakte</string>
+    <string name="button_facebook">Facebook</string>
+    <string name="button_email">Email</string>
+    <string name="button_sms">SMS</string>
+    <string name="button_128kb">128 kb</string>
+    <string name="button_32kb">32 kb</string>
+    <string name="button_onAir_back">Back</string>
+    <string name="button_Share_cancel">Cancel</string>
+    <string name="track_title_initial">Ожидание названия трека...</string>
+    <string name="first_track_title">Track 1</string>
+    <string name="second_track_title">Track 2</string>
+    <string name="third_track_title">Track 3</string>
+    <string name="network_is_offline">Интернет соединение отсутсвует</string>
+    <string name="app_id">417758631649860</string>
+    <string name="title_activity_activity_start">ActivityStart</string>
+ <array name="data">
+       <item>Страница 1</item>
+       <item>Страница 2</item>
+       <item>Страница 3</item>
+       <item>Страница 4</item>
+       <item>Страница 5</item>
+       <item>Страница 6</item>
+</array>
+</resources>
